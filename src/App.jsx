@@ -26,7 +26,7 @@ export default function App() {
       <p style={{ marginTop: '20px', fontSize: '1.2rem' }}>
         Witness history at{' '}
         <a
-          href="https://pump.fun/profile/rarememess"
+          href="https://pump.fun/profile/rarememes"
           target="_blank"
           rel="noopener noreferrer"
           style={{
