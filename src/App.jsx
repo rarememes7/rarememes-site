@@ -13,7 +13,7 @@ export default function App() {
       padding: '20px'
     }}>
       <img
-        src="/rarememes-intro.png.jpg"
+        src="/Rarememes-intro.jpg"
         alt="Rare Memes Intro"
         style={{
           maxWidth: '90%',
