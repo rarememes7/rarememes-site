@@ -4,7 +4,7 @@ import React from "react";
  * RARE MEMES Collective — Clean Build
  * Includes:
  *  - Launchpad
- *  - Hall of Fame
+ *  - Top Performers
  *  - Gallery
  *  - Arcade (Coming Soon)
  */
@@ -14,7 +14,7 @@ export default function RareMemesHome() {
     twitter: "https://x.com/rarememes7",
   };
 
-  const hallOfFame = [
+  const topperformers = [
     {
       name: "FISHY",
       ticker: "$FISHY",
@@ -263,40 +263,4 @@ export default function RareMemesHome() {
       </footer>
     </main>
   );
-}
-{/* Gallery */}
-<section id="gallery" className="px-6 py-10 max-w-6xl mx-auto">
-<h2 className="text-3xl font-semibold mb-6 text-center">Live Draw Gallery</h2>
-<p className="text-neutral-400 text-center max-w-3xl mx-auto mb-6">
-Snapshots from stream sessions — raw frames, process shots, and finished meme pieces. Imperfect is the aesthetic.
-</p>
-<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-{/* Replace these placeholders with your uploaded images */}
-{Array.from({ length: 6 }).map((_, i) => (
-<div key={i} className="aspect-square rounded-xl bg-neutral-900 border border-neutral-800 grid place-items-center text-neutral-600">
-Add image {i + 1}
-</div>
-))}
-</div>
-</section>
-
-
-{/* Lore */}
-<section id="lore" className="px-6 py-10 max-w-4xl mx-auto text-center">
-<h2 className="text-3xl font-semibold mb-3">Manifesto & Lore</h2>
-<p className="text-neutral-300 text-lg italic max-w-2xl mx-auto">
-"Pepe wasn’t perfect — and that’s the point. The rawness is the charm, and the lore is the magic."
-</p>
-<p className="text-neutral-400 mt-4">
-Each drop comes with micro-lore: a short paragraph, a tagline, and a meme origin story. Keep it short and punchy.
-</p>
-</section>
-
-
-{/* Footer */}
-<footer className="px-6 border-t border-neutral-800 py-8 text-center text-neutral-500 text-sm">
-<p>© {new Date().getFullYear()} RARE MEMES Collective — Hand-drawn. Human-made. Foolproof fun.</p>
-</footer>
-</main>
-);
 }
