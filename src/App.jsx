@@ -11,8 +11,7 @@ import React from "react";
 
 export default function RareMemesHome() {
   const socials = {
-    twitter: "https://x.com/rarememes7",
-    email: "mailto:hi@rarememes.art",
+    twitter: "https://x.com/rarememes7"
   };
 
   const hallOfFame = [
