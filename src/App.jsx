@@ -4,7 +4,7 @@ import React from "react";
  * RARE MEMES Collective — Clean Build
  * Includes:
  *  - Launchpad
- *  - Top Performers
+ *  - Hall of Fame
  *  - Gallery
  *  - Arcade (Coming Soon)
  */
@@ -14,7 +14,7 @@ export default function RareMemesHome() {
     twitter: "https://x.com/rarememes7",
   };
 
-  const topperformers = [
+  const hallOfFame = [
     {
       name: "FISHY",
       ticker: "$FISHY",
