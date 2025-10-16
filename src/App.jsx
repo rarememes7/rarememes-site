@@ -2,14 +2,13 @@ import React from 'react';
 
 /**
  * RARE MEMES Collective — Starter Concept Page
- * Jakari's mission: draw original memes live, mint them as tokens, and celebrate imperfection.
+ * Kev's mission: draw original memes live, mint them as tokens, and celebrate imperfection.
  * No whitepaper, no roadmap, just raw, handmade digital art with lore and soul.
  */
 
 export default function RareMemesHome() {
   const socials = {
-    twitter: "https://x.com/your_handle", // TODO: replace
-    email: "mailto:hi@rarememes.com", // TODO: replace
+    twitter: "https://x.com/Rarememes7", // TODO: replace
     telegram: "", // optional later
   };
 
