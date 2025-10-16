@@ -44,8 +44,7 @@ export default function RareMemesHome() {
     <main
       style={{
         minHeight: "100vh",
-        background: "linear-gradient(to bottom, #000000, #001a0d)"  // gradient
-",
+        backgroundColor: "#111111",   // darker gray",
         color: "white",
         fontFamily: "system-ui, sans-serif",
       }}
