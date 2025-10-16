@@ -11,7 +11,9 @@ import React from "react";
 
 export default function RareMemesHome() {
   const socials = {
-    twitter: "https://x.com/rarememes7"
+    twitter: "https://x.com/rarememes7",
+  };
+
   const hallOfFame = [
     {
       name: "FISHY",
@@ -88,12 +90,9 @@ export default function RareMemesHome() {
             href={socials.twitter}
             target="_blank"
             rel="noreferrer"
-            style={{ marginRight: 16, color: "#00FFB2", textDecoration: "underline" }}
+            style={{ color: "#00FFB2", textDecoration: "underline" }}
           >
             Twitter/X
-          </a>
-          <a href={socials.email} style={{ color: "#00FFB2", textDecoration: "underline" }}>
-            Email
           </a>
         </div>
       </section>
